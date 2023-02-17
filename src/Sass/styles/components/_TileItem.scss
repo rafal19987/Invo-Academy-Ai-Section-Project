@@ -1,0 +1,64 @@
+.TileItem__card {
+  margin-top: 16px;
+  width: 343px;
+  height: 196px;
+  background-color: $violet;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: $roundSmall;
+}
+
+.TaileItem__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+  width: 56px;
+  height: 56px;
+  background: #373155;
+  border-radius: $roundSmall;
+  font-size: 20px;
+}
+
+.TaileItem__header {
+  margin-top: 16px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  color: #ffffff;
+}
+
+.TaileItem__content {
+  margin-top: 13px;
+  margin-bottom: 20px;
+  width: 303px;
+  height: 44px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  opacity: 0.5;
+  text-align: center;
+}
+
+.purple {
+  color: $purple;
+}
+
+.aqua {
+  color: $aqua;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.violet {
+  color: $violet;
+}
